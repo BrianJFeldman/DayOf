@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Day Of Plugin",
+    "description": "This extension will show your calendar for dates you highlight",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "DayOfLogo.png",
+        "default_popup": "dayOf.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "dayOf.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
