@@ -1,33 +1,13 @@
-<!--<!DOCTYPE html>
 <html>
-  <head>
-    <title>Google Calendar API Quickstart</title>
-    <meta charset='utf-8' />
-  </head>
-  <body>
-      <style> button {width: 50px;}</style>
-  
-    <button id="authorize-button" style="display: block;">Authorize</button>
-    <button id="signout-button" style="display: none;">Sign Out</button>
-
-    <pre id="content"></pre>
-
-    <script async defer src="https://apis.google.com/js/api.js"
-      onload="this.onload=function(){};handleClientLoad()"
-      onreadystatechange="if (this.readyState === 'complete') this.onload()">
-    </script>
-    <script src = "popup.js" type ="text/javascript"> </script>
-  </body>
-</html>-->
-
-<html>
-  <body>
-    <div id='content'>
-      <h1>Events</h1>
-      <ul id='events'></ul>
-    </div>
-    <a href='#' id='authorize-button' onclick='handleAuthClick();'>Login</a>
-    
-    <!--<script src="client.js"></script>-->
-  </body>
+  <link rel="stylesheet" href="/dayOfStyle.css">
+<body width = "400px" height = "260px">
+  <div id = "full">
+    <div id = "image"><img src = "icon128.png"></div>
+    <div id = "text">
+      <h2> DayOf </h2>
+      <h3> v 1.0 </h3>
+    <p> Highlight dates to get links.</p><p>Click the links.</p><p>See those dates in your Calendar.</p>
+ </div>
+ </div>
+</body>
 </html>
